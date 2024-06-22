@@ -27,7 +27,7 @@ The Task Manager App is a web-based application designed to help users manage th
 - Session Management: express-session
 6. Environment Management:
 - Environment Variables: dotenv
-7: Miscellaneous
+7. Miscellaneous
 - Static File Serving: express.static
 
 ## Installation
