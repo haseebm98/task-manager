@@ -1,0 +1,28 @@
+<%- include('partials/tasksheader') %>
+
+<main>
+    <div>
+        <p class="text-center h2">Add Task</p>
+    </div>
+
+    <form class="card w-50 mt-5 text-center" action="/add-task" method="POST">
+  
+        <label for="title" class="sr-only">Title</label>
+        <input type="text" id="title" class="form-control" name="title" placeholder="Title" required="" autofocus="">
+  
+        <label for="description" class="sr-only">Description</label>
+        <textarea type="text" id="description" class="form-control" name="description" placeholder="Description" required=""></textarea>
+
+        <label for="due_date" class="sr-only">Due Date</label>
+        <input type="date" id="due_date" class="form-control" name="due_date" required="">
+
+        <label for="status" class="sr-only">Status</label>
+        <input type="text" id="description" class="form-control" name="status" placeholder="Status" required="">
+  
+        <button class="btn btn-outline-success btn-block" type="submit">Add Task</button>
+  
+    </form>
+</main>
+
+
+<%- include('partials/footer') %>
