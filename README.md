@@ -11,7 +11,8 @@ The Task Manager App is a web-based application designed to help users manage th
 
 ## Tech Stack
 1. Frontend
-- Templating Engine: EJS (Embedded JavaScript)
+- Templating Engine: HTML + EJS (Embedded JavaScript)
+- Styling: CSS + Bootstrap
 2. Backend:
 - Runtime Environment: Node.js
 - Framework: Express.js
